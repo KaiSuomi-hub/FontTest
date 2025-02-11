@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style import Page</title>
+    <style>
+        @font-face {
+            font-family: 'BwGradualBlack';
+            src: url('https://storage.googleapis.com/cases.zef.fi/PAHU/Bw-Gradual-Black.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'BwGradualBold';
+            src: url('https://storage.googleapis.com/cases.zef.fi/PAHU/Bw-Gradual-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'BwGradualExtraBold';
+            src: url('https://storage.googleapis.com/cases.zef.fi/PAHU/Bw-Gradual-ExtraBold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'BwGradualLight';
+            src: url('https://storage.googleapis.com/cases.zef.fi/PAHU/Bw-Gradual-Light.woff2') format('woff2');
+        }
+
+        body {
+            font-family: 'BwGradualLight', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-family: 'BwGradualBlack', sans-serif;
+        }
+        h2 {
+            font-family: 'BwGradualBold', sans-serif;
+        }
+        h3 {
+            font-family: 'BwGradualExtraBold', sans-serif;
+        }
+        p {
+            font-family: 'BwGradualLight', sans-serif;
+        }
+        .custom-button {
+            background-color: #395244;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bw Gradual Black</h1>
+    <h2>Bw Gradual Bold</h2>
+    <h3>Bw Gradual ExtraBold</h3>
+    <p>This paragraph is using Bw Gradual Light font.</p>
+    <button class="custom-button">Click Me</button>
+</body>
+</html>
